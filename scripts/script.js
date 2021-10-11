@@ -1,4 +1,10 @@
-console.log('Hello, friends!')
+console.log('Hello, friends!');
 
-
-alert("Hello world!!!");
+window.onload = function() {
+    var btn = document.querySelector('button');
+    
+    btn.onclick = function() {
+        console.log('Maybe conflict happened');
+        alert("Hello world!!!");
+    }
+}
