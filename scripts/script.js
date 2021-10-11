@@ -5,6 +5,6 @@ window.onload = function() {
     
     btn.onclick = function() {
         console.log('Maybe conflict happened');
-        alert("Hello world!!!");
+        alert("Hello world!");
     }
 }
